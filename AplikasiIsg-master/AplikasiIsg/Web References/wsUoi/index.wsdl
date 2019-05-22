@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:inkaberWS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:inkaberWS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:inkaberWS">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="loginRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="loginResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="processRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="tipe" type="xsd:string" />
+    <wsdl:part name="data" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="processResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="checkRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="checkResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="inkaberWSPortType">
+    <wsdl:operation name="login">
+      <documentation>User Authentication</documentation>
+      <wsdl:input message="tns:loginRequest" />
+      <wsdl:output message="tns:loginResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="process">
+      <documentation>Process Data</documentation>
+      <wsdl:input message="tns:processRequest" />
+      <wsdl:output message="tns:processResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="check">
+      <documentation>Test Connections</documentation>
+      <wsdl:input message="tns:checkRequest" />
+      <wsdl:output message="tns:checkResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="inkaberWSBinding" type="tns:inkaberWSPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="login">
+      <soap:operation soapAction="urn:login#" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:login" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:login" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="process">
+      <soap:operation soapAction="urn:process#" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:process" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:process" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="check">
+      <soap:operation soapAction="urn:check#" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:check" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:check" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="inkaberWS">
+    <wsdl:port name="inkaberWSPort" binding="tns:inkaberWSBinding">
+      <soap:address location="https://uoi.e-inkaber.com:443/ws/index.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

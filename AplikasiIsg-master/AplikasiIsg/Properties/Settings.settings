@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AplikasiIsg.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AplikasiIsg_inkaber_inkaberWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://services.e-inkaber.com/index.php</Value>
+    </Setting>
+    <Setting Name="AplikasiIsg_wsUoi_inkaberWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://uoi.e-inkaber.com:443/ws/index.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,43 @@
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\AplikasiIsg.exe.config
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\AplikasiIsg.exe
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\AplikasiIsg.pdb
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\MetroFramework.Design.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\MetroFramework.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\NPOI.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\NPOI.OOXML.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.csproj.ResolveComReference.cache
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.Login.resources
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.Main.resources
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.Properties.Resources.resources
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.csproj.GenerateResource.Cache
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.exe
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.pdb
+C:\Users\tony4\Documents\Visual Studio 2015\Projects\AplikasiIsg\AplikasiIsg\obj\Debug\AplikasiIsg.csprojResolveAssemblyReference.cache
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\AplikasiIsg.exe.config
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.csproj.ResolveComReference.cache
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.exe
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.pdb
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\AplikasiIsg.exe
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\AplikasiIsg.pdb
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\MetroFramework.Design.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\MetroFramework.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\MetroFramework.Fonts.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\NPOI.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\NPOI.OOXML.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\NPOI.OpenXml4Net.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.csprojResolveAssemblyReference.cache
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.Login.resources
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.Main.resources
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.Properties.Resources.resources
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.csproj.GenerateResource.Cache
+D:\Bejjo\Tugas\Project\AplikasiIsg-master\AplikasiIsg\obj\Debug\AplikasiIsg.Setting.resources
